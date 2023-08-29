@@ -76,6 +76,7 @@ class History extends Component {
                 <HistoryItem
                   key={eachHistory.id}
                   historyDetails={this.updateSearch}
+                  updateSearch={this.updateSearch}
                   deleteHistory={this.deleteHistory}
                 />
               ))
